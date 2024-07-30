@@ -1,0 +1,23 @@
+/* Fundo cinza para a página */
+body.bg-light {
+    background-color: #f8f9fa; /* Cor cinza claro */
+}
+
+/* Ajustes no footer para fixar na parte inferior */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #6c757d; /* Cor de fundo cinza escuro para o footer */
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+/* Estilo para o histórico */
+#historico {
+    min-height: 150px; /* Altura mínima para garantir visibilidade */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    background-color: #ffffff; /* Fundo branco para contraste */
+    border: 1px solid #dee2e6; /* Borda cinza clara */
+}
